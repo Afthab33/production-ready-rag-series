@@ -59,7 +59,7 @@ This series covers the complete RAG pipeline:
 production-ready-rag-series/
 ├── modules/              # Learning modules and notebooks
 │   ├── 01_search_techniques.ipynb      # Module 1: Search Methods & Techniques
-│   └── 02_retrieval_evaluation.ipynb   # Module 2: (Coming soon)
+│   └── 02_chunking_techniques.ipynb    # Module 2: Production-Ready Chunking
 ├── data/                # Dataset and supporting files
 │   ├── data.joblib      # Educational dataset (100 LangChain docs)
 │   └── bm25_values.json # BM25 sparse vectors
@@ -79,15 +79,17 @@ production-ready-rag-series/
 - **Hybrid Search**: Combining both approaches for optimal results
 - **Metadata Filtering**: Advanced search within document subsets
 
-### 🔄 Module 2: Evaluation & Metrics (Coming Soon)
+### ✅ Module 2: Chunking Techniques
+- **Fixed-Size Chunking**: Character and token-based splitting with LangChain
+- **Variable-Size Chunking**: Recursive and semantic-aware approaches
+- **Mixed Strategies**: Hybrid chunking for optimal document processing
+- **Pinecone Integration**: Production vector storage with serverless architecture
+- **Complete RAG Pipeline**: End-to-end retrieval system with OpenAI
+
+### 🔄 Module 3: Evaluation & Metrics (Coming Soon)
 - Retrieval effectiveness metrics
 - Ranking evaluation techniques
 - Reciprocal Rank Fusion (RRF)
-
-### 📋 Module 3: Chunking Strategies (Coming Soon)
-- Text splitting techniques
-- Metadata-aware chunking
-- Chunk optimization strategies
 
 ### 🚀 Module 4: Advanced Techniques (Coming Soon)
 - Cross-encoders vs bi-encoders
