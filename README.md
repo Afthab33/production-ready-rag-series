@@ -2,13 +2,15 @@
 
 A comprehensive, hands-on series covering Retrieval-Augmented Generation (RAG) from fundamentals to production deployment. This repository contains practical implementations, educational content, and real-world examples using LangChain, Pinecone, and OpenAI.
 
+**🎯 Learn by building real production systems with cutting-edge techniques!**
+
 ## 📚 What You'll Learn
 
 This series covers the complete RAG pipeline:
 
 - **🔍 Retrieval Fundamentals**: Keyword, semantic, and hybrid search methods
+- **✂️ Advanced Chunking**: From basic splitting to AI-powered semantic and agentic chunking
 - **📊 Evaluation & Metrics**: Precision, recall, MRR, NDCG, and more
-- **✂️ Chunking Strategies**: Fixed-length, overlapping, and semantic-aware chunking
 - **🤖 LLM Integration**: Prompt engineering, context handling, and hallucination prevention
 - **📈 Production Readiness**: Logging, monitoring, optimization, and deployment
 - **🔄 Advanced Techniques**: Cross-encoders, reranking, and agentic RAG
@@ -59,7 +61,8 @@ This series covers the complete RAG pipeline:
 production-ready-rag-series/
 ├── modules/              # Learning modules and notebooks
 │   ├── 01_search_techniques.ipynb      # Module 1: Search Methods & Techniques
-│   └── 02_chunking_techniques.ipynb    # Module 2: Production-Ready Chunking
+│   ├── 02_chunking_techniques.ipynb    # Module 2: Production-Ready Chunking
+│   └── 03_advanced_chunking_techniques.ipynb  # Module 3: Advanced AI-Powered Chunking
 ├── data/                # Dataset and supporting files
 │   ├── data.joblib      # Educational dataset (100 LangChain docs)
 │   └── bm25_values.json # BM25 sparse vectors
@@ -86,38 +89,46 @@ production-ready-rag-series/
 - **Pinecone Integration**: Production vector storage with serverless architecture
 - **Complete RAG Pipeline**: End-to-end retrieval system with OpenAI
 
-### 🔄 Module 3: Evaluation & Metrics (Coming Soon)
+### ✅ Module 3: Advanced Chunking Techniques
+- **Semantic Chunking**: LangChain SemanticChunker and custom embedding-based approaches
+- **Agentic Chunking**: LLM-powered intelligent boundary detection using GPT models
+- **Enhanced Agentic Chunking**: Sophisticated proposition-based chunking with iterative processing
+- **Production Evaluation**: Comprehensive cost analysis and decision frameworks
+
+### 🔄 Module 4: Evaluation & Metrics (Coming Soon)
 - Retrieval effectiveness metrics
 - Ranking evaluation techniques
 - Reciprocal Rank Fusion (RRF)
 
-### 🚀 Module 4: Advanced Techniques (Coming Soon)
+### 🚀 Module 5: Advanced Techniques (Coming Soon)
 - Cross-encoders vs bi-encoders
 - Reranking with LLMs
 - Query parsing and optimization
 
-### 🤖 Module 5: LLM Integration (Coming Soon)
+### 🤖 Module 6: LLM Integration (Coming Soon)
 - Prompt engineering for RAG
 - Context handling strategies
 - Hallucination prevention
 
-### 📊 Module 6: Production Readiness (Coming Soon)
+### 📊 Module 7: Production Readiness (Coming Soon)
 - Logging and monitoring
 - Performance optimization
 - Cost management
 
-### 🚀 Module 7: Deployment (Coming Soon)
+### 🚀 Module 8: Deployment (Coming Soon)
 - Production deployment strategies
 - Security considerations
 - Multimodal RAG
 
 ## 🎯 Key Features
 
-- **Hands-on Implementation**: Real code examples for every concept
-- **Production Focus**: Best practices and optimization techniques
-- **Comprehensive Coverage**: From basics to advanced production systems
-- **Interactive Learning**: Jupyter notebooks for experimentation
-- **Real-world Examples**: Practical use cases and implementations
+- **🛠️ Hands-on Implementation**: Real code examples for every concept
+- **🏭 Production Focus**: Best practices and optimization techniques
+- **📚 Comprehensive Coverage**: From basics to advanced AI-powered systems
+- **🧪 Interactive Learning**: Jupyter notebooks for experimentation
+- **🌟 Cutting-Edge Techniques**: Latest advances including agentic and semantic chunking
+- **💡 Real-world Examples**: Practical use cases and implementations
+- **📈 Cost Analysis**: Detailed comparisons and decision frameworks
 
 ## 📊 Dataset
 
@@ -154,4 +165,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Ready to build production-ready RAG systems? Start with Module 1 and transform your AI applications! 🚀**
+## 🏆 What Makes This Series Unique?
+
+- **🎯 Production-Ready Focus**: Every technique is designed for real-world deployment
+- **🧠 Advanced AI Techniques**: Includes cutting-edge methods like agentic chunking that rival commercial implementations
+- **💰 Cost-Aware Design**: Detailed analysis of computational costs and trade-offs
+- **🔧 Complete Implementations**: Full working code, not just concepts
+- **📊 Comprehensive Evaluation**: Statistical analysis and decision frameworks
+- **🚀 Latest Technologies**: Uses the newest LangChain experimental features and OpenAI models
+
+---
+
+**Ready to build production-ready RAG systems with cutting-edge AI techniques? Start with Module 1 and transform your applications! 🚀**
