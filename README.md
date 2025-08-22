@@ -10,6 +10,7 @@ This series covers the complete RAG pipeline:
 
 - **🔍 Retrieval Fundamentals**: Keyword, semantic, and hybrid search methods
 - **✂️ Advanced Chunking**: From basic splitting to AI-powered semantic and agentic chunking
+- **🎛️ LLM Parameter Optimization**: Systematic tuning for cost, quality, and performance
 - **📊 Evaluation & Metrics**: Precision, recall, MRR, NDCG, and more
 - **🤖 LLM Integration**: Prompt engineering, context handling, and hallucination prevention
 - **📈 Production Readiness**: Logging, monitoring, optimization, and deployment
@@ -62,7 +63,8 @@ production-ready-rag-series/
 ├── modules/              # Learning modules and notebooks
 │   ├── 01_search_techniques.ipynb      # Module 1: Search Methods & Techniques
 │   ├── 02_chunking_techniques.ipynb    # Module 2: Production-Ready Chunking
-│   └── 03_advanced_chunking_techniques.ipynb  # Module 3: Advanced AI-Powered Chunking
+│   ├── 03_advanced_chunking_techniques.ipynb  # Module 3: Advanced AI-Powered Chunking
+│   └── 04_llm_parameter_exploration.ipynb     # Module 4: LLM Parameter Optimization
 ├── data/                # Dataset and supporting files
 │   ├── data.joblib      # Educational dataset (100 LangChain docs)
 │   └── bm25_values.json # BM25 sparse vectors
@@ -95,27 +97,35 @@ production-ready-rag-series/
 - **Enhanced Agentic Chunking**: Sophisticated proposition-based chunking with iterative processing
 - **Production Evaluation**: Comprehensive cost analysis and decision frameworks
 
-### 🔄 Module 4: Evaluation & Metrics (Coming Soon)
+### ✅ Module 4: LLM Parameter Exploration & Optimization
+- **Temperature Control**: Systematic analysis of randomness vs. consistency trade-offs
+- **Top-p (Nucleus Sampling)**: Diversity control through probability thresholds
+- **Parameter Interactions**: Scientific approach to testing parameter combinations
+- **Production Optimization**: Quality vs. speed vs. cost analysis with real scenarios
+- **Cost Reduction Strategies**: Practical techniques achieving 30-60% cost savings
+- **Use Case Profiles**: Optimized parameters for customer support, education, advisory services
+
+### 🔄 Module 5: Evaluation & Metrics (Coming Soon)
 - Retrieval effectiveness metrics
 - Ranking evaluation techniques
 - Reciprocal Rank Fusion (RRF)
 
-### 🚀 Module 5: Advanced Techniques (Coming Soon)
+### 🚀 Module 6: Advanced Techniques (Coming Soon)
 - Cross-encoders vs bi-encoders
 - Reranking with LLMs
 - Query parsing and optimization
 
-### 🤖 Module 6: LLM Integration (Coming Soon)
+### 🤖 Module 7: LLM Integration (Coming Soon)
 - Prompt engineering for RAG
 - Context handling strategies
 - Hallucination prevention
 
-### 📊 Module 7: Production Readiness (Coming Soon)
+### 📊 Module 8: Production Readiness (Coming Soon)
 - Logging and monitoring
 - Performance optimization
 - Cost management
 
-### 🚀 Module 8: Deployment (Coming Soon)
+### 🚀 Module 9: Deployment (Coming Soon)
 - Production deployment strategies
 - Security considerations
 - Multimodal RAG
